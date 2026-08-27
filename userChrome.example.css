@@ -1,0 +1,9 @@
+/**
+ * userChrome.css - Example Configuration
+ * Place this file (renamed to userChrome.css) in your Firefox profile's `chrome/` directory.
+ */
+
+/* 1. Import Clean Menu Icons */
+@import url("css/clean-menu-icons.css");
+
+/* 2. (Optional) Add your custom rules below */
