@@ -40,20 +40,36 @@ Other older snippets on GitHub and Gist are mostly abandoned and lack support fo
 
 ---
 
-## 📥 Installation (in 3 easy steps)
+## 📥 Installation
 
-### Step 1: Enable `userChrome.css` in Firefox
+### Option 1: Automatic 1-Click Install (Recommended)
+
+1. Download this repository as a ZIP ([Click here](https://github.com/catgirl3d/firefox-clean-menu-icons/archive/refs/heads/main.zip) or via the green **Code** > **Download ZIP** button) and extract it.
+2. Run the installer:
+   * **Windows:** Simply double-click `install.bat`!
+   * **Linux / macOS:** Open terminal in the folder and run:
+      ```bash
+      bash install.sh
+      ```
+   Before changing existing profile files, the installer creates timestamped backups next to them.
+3. Restart Firefox. Done! 🚀
+
+---
+
+### Option 2: Manual Installation (3 Steps)
+
+#### Step 1: Enable `userChrome.css` in Firefox
 1. Open Firefox and type `about:config` into the address bar. Press <kbd>Enter</kbd>.
 2. Click **"Accept the Risk and Continue"**.
 3. Search for `toolkit.legacyUserProfileCustomizations.stylesheets`.
 4. Double-click it (or click the toggle button) to set it to **`true`**.
 
-### Step 2: Open your Profile Folder
+#### Step 2: Open your Profile Folder
 1. In Firefox, open `about:support`.
 2. Find the row named **Profile Folder** (or **Profile Directory**) and click **Open Folder**.
 3. In that folder, check if a folder named `chrome` exists. If not, create it.
 
-### Step 3: Copy the Files
+#### Step 3: Copy the Files
 1. Copy the `icons/` folder and the `css/` folder from this repository into your `chrome/` folder:
    ```
    [Your Profile Folder]/
